@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/nosotrosStyle.css">
+    <title>Casamiento | ¿Quiénes somos?</title>
+    <link rel="shortcut icon" href="../imagenes/favicon/favicon.ico">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+      $('.main').css('display', 'none');
+      $('.main').fadeIn(1000);
+
+      $('.navIt').click(function(event) {
+        event.preventDefault();
+        newLocation = this.href;
+        $('.main').fadeOut(300, newpage);
+      });
+
+      function newpage() {
+        window.location = newLocation;
+      }
+
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+
+      <div class="titulo"><a class="title" href="../index.html"><h1>Casamiento<h1></a></div>
+
+      <div class="social">
+    		<a href="https://es-es.facebook.com/" target="_blank"><img class="socImg" src="../imagenes/header/social/facebook.png"></a>
+    		<a href="https://twitter.com/" target="_blank"><img class="socImg" src="../imagenes/header/social/twitter.png"></a>
+    		<a href="https://www.instagram.com/" target="_blank"><img class="socImg" src="../imagenes/header/social/instagram.png"></a>
+    	</div>
+    </header>
+
+    <nav>
+    	<div class="menuNav">
+        <a class="navIt" href="../html/bodas.html">Bodas</a>
+        <a class="navIt" href="../html/cumpleanos.html">Cumpleaños</a>
+        <a class="navIt" href="../html/eventos.html">Otros eventos</a>
+        <a class="navIt" href="../html/galeria.html">Galería</a>
+        <a class="navIt" href="../html/nosotros.html">¿Quiénes somos?</a>
+      </div>
+  	</nav>
+
+    <div class="clear"></div>
+
+    <section class="main">
+      <div class="contImg">
+        <img src="../imagenes/nosotros/oficina_boda.jpg" alt="Oficina de bodas" style="border-radius: 15px">
+      </div>
+      <form class="formulario" action="" method="post">
+
+            <table class="tablaNos">
+              <caption>Solicita tu propio evento</caption>
+              <td #id="infoTab" colspan="2">Introduce tus datos para que contactemos contigo o llama al 916 516 651</td>
+              <tr>
+                <td>Nombre:</td>
+                <td><input type="text" name="Nombre"><br></td>
+              </tr>
+              <tr>
+                <td>Apellidos:</td>
+                <td><input type="text" name="Apellidos"><br></td>
+              </tr>
+              <tr>
+                <td>Telefono de contacto:</td>
+                <td><input type="text" name="telefono"><br></td>
+              </tr>
+              <tr>
+                <td>Correo electronico:</td>
+                <td><input type="text" name="telefono"><br>
+                </td>
+              </tr>
+              <td colspan="2"><input id="enviarEv" type="submit" name="Formulario" value="¡Quiero mi evento!"></td>
+            </table>
+
+      </form>
+
+      <div class="clear"></div>
+
+      <div class="nosotrosText">
+        <p><strong>C</strong>asamiento fue fundado en 2003, está formado por un equipo de profesionales de formación multidisciplinar,
+        especialistas en la organización de bodas y eventos de todo tipo, garantizando en cada ocasión el éxito
+        del evento y dando soluciones a los clientes más exigentes.</p>
+
+        <p><strong>J</strong>uan José, Programador Web, ha desarrollado su carrera profesional en las
+        mejores agencias de eventos de nuestro país. Tras más de 8 años de experiencia como wedding planners en
+        Madrid no se le escapa ningún detalle.</p>
+
+        <p><strong>G</strong>isela Príncipe es una profesional comprometida, innovadora y creativa, con una trayectoria de más de 10
+        años en el mundo de los eventos corporativos. Le apasiona el contacto permanente con la novia, ser su mano
+        derecha para todo lo que necesite. Su objetivo es materializar cualquier idea que tenga, aportando creatividad,
+        originalidad y armonía artística. Le encanta lo que a muchas personas les estresa: buscar, negociar y organizar,
+        es lo que hace que su trabajo sea apasionante cada día</p>
+      </div>
+
+    <div class="clear"></div>
+
+    <div class="map">
+      <img class="mapImg" src="../imagenes/nosotros/lazo_iz.png" alt="Lazo_Izquierda">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.3345501752397!2d-3.6706354843472253!3d40.423590363145735!2m3!1f0!2f0!3f0!3m2!1i1024!2
+      i768!4f13.1!3m3!1m2!1s0xd4228ae19cbe413%3A0xb93014aa63874a0e!2sCalle+del+Dr.+Esquerdo%2C+45%2C+28028+Madrid!5e0!3m2!1ses!2ses!4v1496937678345" width="50%"
+      height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <img class="mapImg" src="../imagenes/nosotros/lazo_de.png" alt="Lazo_Derecha">
+    </div>
+
+  </section>
+
+    <div class="clear"></div>
+    <footer>
+      <div class="footer1">TELÉFONO: 916 516 651 | AVDA. DOCTOR ESQUERDO Nº43 | MADRID</div>
+      <div class="footer2">
+        <div class="footer3">
+          <img class="footerImg" src="../imagenes/indice/florituras.png" alt="Florituras">
+        </div>
+
+        <table style="width:auto">
+          <tr>
+            <th id=tablaTit colspan="2">Horario de atención al cliente</th>
+          </tr>
+          <tr>
+            <th>Online</th>
+            <th>En nuestras oficinas</th>
+          </tr>
+          <tr>
+            <td rowspan="2">Las 24h</td>
+            <td>10:00h-13:30h</td>
+          </tr>
+          <tr>
+            <td>17:30h-20:30h</td>
+          </tr>
+        </table>
+        <div class="clear"></div>
+      </div>
+    </footer>
+  </body>
+</html>

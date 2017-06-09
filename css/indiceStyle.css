@@ -1,0 +1,16 @@
+.mainImg {
+  width: 100%;
+  margin-bottom: -50px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.main {
+  width: 100%;
+  text-align: center;
+}
+
+.cabeza {
+  font-family: Magnolia;
+  font-size: 3em;
+}

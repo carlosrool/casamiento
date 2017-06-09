@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/cumpleStyle.css">
+    <link rel="shortcut icon" href="../imagenes/favicon/favicon.ico">
+    <title>Casamiento | Cumpleaños</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+      $('.main').css('display', 'none');
+      $('.main').fadeIn(1000);
+
+      $('.navIt').click(function(event) {
+        event.preventDefault();
+        newLocation = this.href;
+        $('.main').fadeOut(300, newpage);
+      });
+
+      function newpage() {
+        window.location = newLocation;
+      }
+
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+
+      <div class="titulo"><a class="title" href="../index.html"><h1>Casamiento<h1></a></div>
+
+      <div class="social">
+    		<a href="https://es-es.facebook.com/" target="_blank"><img class="socImg" src="../imagenes/header/social/facebook.png"></a>
+    		<a href="https://twitter.com/" target="_blank"><img class="socImg" src="../imagenes/header/social/twitter.png"></a>
+    		<a href="https://www.instagram.com/" target="_blank"><img class="socImg" src="../imagenes/header/social/instagram.png"></a>
+    	</div>
+    </header>
+
+    <nav>
+    	<div class="menuNav">
+        <a class="navIt" href="../html/bodas.html">Bodas</a>
+        <a class="navIt" href="../html/cumpleanos.html">Cumpleaños</a>
+        <a class="navIt" href="../html/eventos.html">Otros eventos</a>
+        <a class="navIt" href="../html/galeria.html">Galería</a>
+        <a class="navIt" href="../html/nosotros.html">¿Quiénes somos?</a>
+      </div>
+  	</nav>
+
+    <div class="clear"></div>
+
+    <section class="main">
+
+      <div class="content">
+        <div class="iz">
+          <img class="sombra" src="../imagenes/cumpleanos/ocio1.jpg" alt="Ocio al aire libre">
+        </div>
+
+        <div class="der">
+          <p><strong>S</strong>i lo que quieres es celebrar un cumpleaños inolvidable,
+          en Casamientos también te ofrecemos esa posibilidad.</p>
+          <p><strong>G</strong>racias a nuestras diversas instalaciones de ocio podemos
+          proporcionarle a usted y sus amigos/as un tiempo agradable
+          al aire libre o en los distintos
+          salones de eventos disponibles.</p>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+
+      <div class="content">
+        <div class="iz2">
+          <p><strong>E</strong>ntre nuestras instalaciones se encuentran:</p>
+
+          <ul>
+            <li><strong>H</strong>ipódromo</li>
+            <li><strong>D</strong>iscotecas (cerradas y al aire libre)</li>
+            <li><strong>C</strong>ircuitos de karting</li>
+            <li><strong>C</strong>anchas de fútbol y baloncesto</li>
+            <li><strong>P</strong>iscinas</li>
+          </ul>
+
+        </div>
+
+        <div class="der">
+          <img class="sombra" id="ocio2" src="../imagenes/cumpleanos/ocio2.jpg" alt="Ocio al aire libre">
+        </div>
+      </div>
+
+      <div class="clear"></div>
+
+      <h3 class="ninos">¡TAMBIÉN PARA LOS PEQUES DE LA CASA!</h3>
+
+    </section>
+
+    <div class="clear"></div>
+    <footer>
+      <div class="footer1">TELÉFONO: 916 516 651 | AVDA. DOCTOR ESQUERDO Nº43 | MADRID</div>
+      <div class="footer2">
+        <div class="footer3">
+          <img class="footerImg" src="../imagenes/indice/florituras.png" alt="Florituras">
+        </div>
+
+        <table style="width:auto">
+          <tr>
+            <th id=tablaTit colspan="2">Horario de atención al cliente</th>
+          </tr>
+          <tr>
+            <th>Online</th>
+            <th>En nuestras oficinas</th>
+          </tr>
+          <tr>
+            <td rowspan="2">Las 24h</td>
+            <td>10:00h-13:30h</td>
+          </tr>
+          <tr>
+            <td>17:30h-20:30h</td>
+          </tr>
+        </table>
+        <div class="clear"></div>
+      </div>
+    </footer>
+  </body>
+</html>

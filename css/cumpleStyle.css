@@ -1,0 +1,50 @@
+.iz, .der {
+  float: left;
+  width: 45%;
+}
+
+.iz2 {
+  float: left;
+  width: 50%;
+  padding-top: 5%;
+}
+
+.der {
+  margin-right: 1px;
+  padding-top: 5%;
+}
+
+#ocio2 {
+  margin-left: 15%;
+}
+
+.content {
+  width: 100%;
+  height: 4px;
+  margin-top: 3px;
+  padding: 2%;
+}
+
+p, li {
+  font-size: 1.2em;
+}
+
+p {
+  text-align: center;
+}
+
+.ninos {
+  font-family: WaltoD;
+  font-size: 2em;
+  text-align: center;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.ninos:hover {
+  font-size: 2.3em;
+}
+
+.sombra {
+   border-radius: 15px;
+   box-shadow: 3px 3px 8px #999;
+}

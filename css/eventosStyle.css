@@ -1,0 +1,19 @@
+img {
+  width: 90%;
+}
+
+.content {
+  width: 100%;
+  transition: width 0.2s ease-in-out;
+  text-align: center;
+}
+
+.content:hover {
+  width: 102%
+}
+
+.info {
+  padding: 15px 0 0 4%;
+  font-family: GreatVibes;
+  font-size: 3em;
+}

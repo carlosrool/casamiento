@@ -1,0 +1,42 @@
+.contImg {
+  margin: 3% 0% 0% 15%;
+  float: left;
+}
+
+.formulario {
+  margin: 3.5% 15% 0% 0%;
+  float: right;
+}
+
+.tablaNos {
+  font-family: GreatVibes;
+}
+
+caption {
+  font-size: 2em;
+}
+
+#infotab {
+  font-size: 0.75em;
+}
+
+#enviarEv{
+  border-radius: 3% 3% 3% 3%;
+  float: right;
+}
+
+.nosotrosText {
+  float: left;
+  margin: 3% 10% 3% 10%;
+}
+
+.map {
+  text-align: center;
+  width: 100%;
+  height: 320px;
+}
+
+.mapImg {
+  width: 19%;
+  margin-bottom: 50px;
+}

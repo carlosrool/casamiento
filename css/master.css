@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "Magnolia";
+    src: url(../fonts/Magnolia.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "MagnoliaLight";
+    src: url(../fonts/MagnoliaLight.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "GreatVibes";
+    src: url(../fonts/GreatVibes.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "WaltoD";
+    src: url(../fonts/Walto.ttf) format("truetype");
+}
+
+strong {
+  font-family: GreatVibes;
+}
+
+p {
+  text-align: center;
+  font-family: verdana;
+}
+
+.clear {
+  clear: both;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.social {
+  	float: right;
+}
+
+.socImg {
+    width: 20px;
+    padding-top: 10px
+}
+
+.titulo {
+  float: left;
+  padding-right: 2%;
+  padding-left: 8%
+}
+
+.title {
+  font: 1.9em Magnolia;
+  text-decoration: none;
+  color: black;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.title:hover {
+  font-size: 1.95em
+}
+
+.mainIframe {
+  border: 0;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+body {
+  background-color: #f8f6ff;
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  background-color: #f8f6ff;
+  height: 100px;
+  width: 100%;
+}
+
+.menuNav {
+  float: right;
+  padding-right: 5%;
+}
+
+.navIt {
+  float: left;
+  display: block;
+  color: black;
+  width: auto;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  font: 30px GreatVibes;
+  width: 200px;
+  transition: color 0.2s ease-in-out;
+}
+
+.navIt:hover {
+  color: #656565;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 90%;
+  color: white;
+}
+
+.main {
+  width: auto;
+  margin-bottom: 120px;;
+}
+
+.footer1 {
+  clear: both;
+  height: 20px;
+  text-align: center;
+  font: 1.25em black GreatVibes;
+  background-color: #d9d9d9;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 20px;
+  width: auto;
+}
+
+.footer2 {
+  height: auto;
+  border-left: solid #d9d9d9;
+  border-right: solid #d9d9d9;
+  color: black;
+  padding: 20px;
+  width: auto;
+  text-align: left;
+}
+
+.footer3 {
+  float: left;
+  width: 50%;
+  padding-left: 3%;
+}
+
+.footerImg {
+  padding-top: 1%;
+  width: 100%;
+}
+
+table {
+  font-family: GreatVibes;
+  float: right;
+}
+
+th, td {
+  padding: 5px 2.35em 5px 5px;
+  font-size: 1.5em;
+}
+
+#tablaTit {
+  font-size: 2em;
+}
